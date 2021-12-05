@@ -2,8 +2,8 @@
 
 terraform {
   backend "s3" {
-    bucket = "sameeduddin-infra-19june21"
+    bucket = "new32"
     key    = "aws-jenkins-remote.tfstate"
-    region = "us-east-1"
+    region = "ap-southeast-1"
   }
 }
